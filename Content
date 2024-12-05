@@ -6,7 +6,7 @@ import FirebaseFirestore
 import UserNotifications
 import FirebaseCore
 import FirebaseAuth
-
+ 
 extension Color {
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()

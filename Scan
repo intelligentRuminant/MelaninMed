@@ -8,7 +8,7 @@ let firestoreManager = AppDelegate()
 struct ConditionsListView: View {
     let conditions: [String]
     @Binding var showConditions: Bool
-    
+     
     var body: some View {
           NavigationView {
               VStack {
